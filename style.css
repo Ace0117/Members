@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  .dark { background: #222; color: #f4f4f4; };
+  color:  white;
+  text-align: center;
+  background-color:#222 ;
+
+}
+
+/* Header */
+header {
+  background: #333;
+  padding: 2em 1em;
+  border-bottom: 3px solid #0066ff;
+  #dark-mode-toggle { background: none; border: none; color: #fff; font-size: 1.2rem; cursor: pointer; }
+}
+
+h1 {
+  color:blueviolet;
+  margin-bottom: 0.3em;
+}
+
+/* Members Section */
+.members {
+  padding: 2em 1em;
+}
+
+.members h2 {
+  color: blueviolet;
+  margin-bottom: 1em;
+}
+
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.member {
+  background:#333 ;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 1.5em;
+  width: 230px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.profile-pic {
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.member h3 {
+  color: blueviolet;
+  margin: 0.5em 0 0.2em;
+}
+
+.member a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: white;
+  background:  #222;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.member a:hover {
+  background: blueviolet;
+}
+
+/* Group Photo Section */
+.group-photo {
+  padding: 2em 1em;
+}
+
+.group-photo h2 {
+  color: blueviolet;
+}
+
+.group-img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 20px;
+  margin-top: 1em;
+  border: 3px solid blueviolet;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 1em 0;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+section p {
+  color: black;
+}
